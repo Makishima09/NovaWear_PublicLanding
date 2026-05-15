@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NOVA WEAR — Calidad premium que se nota desde el primer tacto. Ropa urbana para quienes marcan el ritmo. Tienda física y online.">
+
+  <title>NOVA WEAR — Viste al nivel que mereces</title>
+  <link rel="icon" type="image/png" href="img/camisa-hawaiana.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ================================================
+       NAVBAR
+  ================================================ -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__container">
+
+      <a href="#hero" class="navbar__logo">
+        <img src="img/camisa-hawaiana.png" alt="">
+        NOVA WEAR
+      </a>
+
+      <button class="navbar__toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="navbar__nav" id="navMenu" aria-label="Navegación principal">
+        <a href="#hero">Inicio</a>
+        <a href="#about">Nosotros</a>
+        <a href="#store">Tienda</a>
+        <a href="#contact">Contacto</a>
+        <a href="#" class="navbar__cta">Comprar ahora &rarr;</a>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <main>
+
+    <!-- ================================================
+         HERO
+    ================================================ -->
+    <section id="hero" class="hero">
+
+      <div class="hero__bg-grid" aria-hidden="true"></div>
+      <div class="hero__glow"    aria-hidden="true"></div>
+
+      <div class="hero__content">
+        <span class="hero__tag">Bomber Collection 2026</span>
+
+        <h1 class="hero__title">
+          VISTE AL NIVEL<br>
+          <span class="hero__title--accent">QUE MERECES.</span>
+        </h1>
+
+        <p class="hero__subtitle">
+          Calidad premium que se nota desde el primer tacto.<br>
+          Sin decepciones. Sin compromisos.
+        </p>
+
+        <div class="hero__actions">
+          <a href="#store" class="btn btn--primary">Ver Bomber Collection</a>
+          <a href="#about" class="btn btn--outline">Nuestra Historia</a>
+        </div>
+      </div>
+
+      <a href="#about" class="hero__scroll" aria-label="Ir a la siguiente sección">
+        <span>Scroll</span>
+        <i class="fas fa-chevron-down" aria-hidden="true"></i>
+      </a>
+
+    </section>
+
+
+    <!-- ================================================
+         PRODUCTO ESTRELLA
+    ================================================ -->
+    <section id="producto" class="producto">
+      <div class="producto__container">
+
+        <header class="producto__header" data-animate="fade-up">
+          <span class="section-tag">Producto Estrella</span>
+          <h2 class="section-title section-title--light">La Bomber.</h2>
+          <p class="producto__subtitle">
+            Una bomber. Mil looks. Ningún arrepentimiento.
+          </p>
+        </header>
+
+        <div class="producto__grid">
+
+          <div class="producto__img-wrap" data-animate="fade-left">
+            <img src="img/productoFrontal.png" alt="NOVA WEAR Bomber — Vista frontal">
+            <span class="producto__img-label">Vista frontal</span>
+          </div>
+
+          <div class="producto__img-wrap" data-animate="fade-right">
+            <img src="img/productoEspalda.png" alt="NOVA WEAR Bomber — Vista trasera">
+            <span class="producto__img-label">Vista trasera</span>
+          </div>
+
+        </div>
+
+        <div class="producto__cta" data-animate="fade-up">
+          <a href="#" class="btn btn--primary">Comprar ahora &rarr;</a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ================================================
+         ABOUT
+    ================================================ -->
+    <section id="about" class="about">
+      <div class="about__container">
+
+        <!-- Imagen -->
+        <div class="about__media" data-animate="fade-left">
+          <div class="about__img-wrap">
+            <img src="img/imagenTiendaa.png" alt="Interior tienda NOVA WEAR">
+          </div>
+          <div class="about__badge" aria-label="Fundada en 2020">EST.<br>2020</div>
+        </div>
+
+        <!-- Texto -->
+        <div class="about__body" data-animate="fade-right">
+          <span class="section-tag">Por qué NOVA WEAR</span>
+
+          <h2 class="section-title">
+            Porque la calidad<br>no debería ser<br>una apuesta.
+          </h2>
+
+          <p>
+            Lo hemos visto demasiadas veces: pagas de más y en dos semanas
+            la prenda ya no es la misma. En NOVA WEAR decidimos romper ese
+            ciclo. Cada bomber, cada pieza, está seleccionada con estándares
+            que hablan por sí solos.
+          </p>
+
+          <p>
+            Somos una marca con identidad propia, no una franquicia.
+            Tienda física donde puedes tocar y sentir, y e-commerce con
+            envío rápido porque tu tiempo también vale. Calidad premium,
+            precio justo. Esa es la promesa NOVA WEAR.
+          </p>
+
+          <div class="about__stats" aria-label="Cifras de la marca">
+            <div class="stat" data-animate="fade-up" data-delay="100">
+              <span class="stat__number">500<span class="stat__plus">+</span></span>
+              <span class="stat__label">Prendas únicas</span>
+            </div>
+            <div class="stat" data-animate="fade-up" data-delay="200">
+              <span class="stat__number">6</span>
+              <span class="stat__label">Años de historia</span>
+            </div>
+            <div class="stat" data-animate="fade-up" data-delay="300">
+              <span class="stat__number">12K</span>
+              <span class="stat__label">Clientes fieles</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ================================================
+         STORE
+    ================================================ -->
+    <section id="store" class="store">
+      <div class="store__container">
+
+        <header class="store__header" data-animate="fade-up">
+          <span class="section-tag">Encuéntranos</span>
+          <h2 class="section-title section-title--light">
+            Tu próxima prenda<br>favorita está aquí.
+          </h2>
+          <p class="store__subtitle">
+            Visítanos en tienda o recíbelo en casa en tiempo récord.
+          </p>
+        </header>
+
+        <div class="store__grid">
+
+          <!-- Info cards -->
+          <ul class="store__info" aria-label="Datos de contacto">
+
+            <li class="info-card" data-animate="fade-up" data-delay="100">
+              <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+              <div>
+                <h3>Dirección</h3>
+                <address>
+                  Calle Gran Vía 42, Local 3<br>
+                  28013 Madrid, España
+                </address>
+              </div>
+            </li>
+
+            <li class="info-card" data-animate="fade-up" data-delay="200">
+              <i class="fas fa-clock" aria-hidden="true"></i>
+              <div>
+                <h3>Horario</h3>
+                <p>
+                  Lun &ndash; Vie: 10:00 &ndash; 21:00<br>
+                  Sábado: 10:00 &ndash; 22:00<br>
+                  Domingo: 11:00 &ndash; 20:00
+                </p>
+              </div>
+            </li>
+
+            <li class="info-card" data-animate="fade-up" data-delay="300">
+              <i class="fas fa-phone" aria-hidden="true"></i>
+              <div>
+                <h3>Teléfono</h3>
+                <p><a href="tel:+34911234567">+34 911 234 567</a></p>
+              </div>
+            </li>
+
+            <li class="info-card" data-animate="fade-up" data-delay="400">
+              <i class="fas fa-envelope" aria-hidden="true"></i>
+              <div>
+                <h3>Email</h3>
+                <p><a href="mailto:hola@novawear.com">hola@novawear.com</a></p>
+              </div>
+            </li>
+
+          </ul>
+
+          <!-- Mapa -->
+          <div class="store__map" data-animate="fade-left">
+            <iframe
+              title="Ubicación NOVA WEAR — Gran Vía, Madrid"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.295899082474!2d-3.703790684602!3d40.41996947936516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42289e64804f4b%3A0x5d5f6cf26f00cfce!2sGran%20V%C3%ADa%2C%20Madrid!5e0!3m2!1ses!2ses!4v1619000000000!5m2!1ses!2ses"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ================================================
+       FOOTER
+  ================================================ -->
+  <footer id="contact" class="footer">
+    <div class="footer__container">
+
+      <div class="footer__brand">
+        <span class="footer__logo">NOVA WEAR</span>
+        <p>Calidad que se queda. Estilo que te define.</p>
+      </div>
+
+      <nav class="footer__social" aria-label="Redes sociales">
+        <a href="#" aria-label="Instagram" class="social--instagram">
+          <i class="fab fa-instagram" aria-hidden="true"></i>
+        </a>
+        <a href="#" aria-label="TikTok" class="social--tiktok">
+          <i class="fab fa-tiktok" aria-hidden="true"></i>
+        </a>
+        <a href="#" aria-label="X / Twitter" class="social--x">
+          <i class="fab fa-x-twitter" aria-hidden="true"></i>
+        </a>
+        <a href="#" aria-label="WhatsApp">
+          <img src="img/whatsapp.png" alt="WhatsApp">
+        </a>
+      </nav>
+
+      <p class="footer__copy">
+        &copy; 2026 NOVA WEAR. Todos los derechos reservados.
+      </p>
+
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
